@@ -4,5 +4,4 @@ Git
 HTML
 CSS
 JavaScript
-
-Trybe
+Phyton
