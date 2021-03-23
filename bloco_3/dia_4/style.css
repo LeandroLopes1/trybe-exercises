@@ -1,0 +1,53 @@
+#header{
+    padding: 10px;
+    border: 4px solid red;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#nav{
+    padding: 10px;
+    border: 4px solid red;
+    height: 50px;
+    margin-bottom: 10px; 
+}
+
+#article{
+    
+    border: 4px solid red;
+    width: 80%;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#section{
+    f
+    padding: 10px;
+    border: 4px solid red;
+    margin-bottom: 10px;
+
+}
+
+#footer{
+    padding: 10px;
+    border: 4px solid red;
+    height: 100px;
+}
+
+#group{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+#aside{
+    padding: 20px;
+    border: 4px solid red;
+     width: 250px;
+     
+
+}
+
+.nav-links li{
+    display: inline;
+}
