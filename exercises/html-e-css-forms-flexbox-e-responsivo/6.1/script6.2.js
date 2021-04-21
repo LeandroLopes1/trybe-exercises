@@ -9,9 +9,6 @@ function createStateOptions() {
   }
 }
 
-
-
-
 var picker = new Pikaday({
     field: document.getElementById('datepicker'),
     format: 'D/M/YYYY',
@@ -44,7 +41,6 @@ function clearFields() {
   }
 }
 clearButton.addEventListener('click', clearFields);
-
 
 new JustValidate('.js-form', {
   rules: {
