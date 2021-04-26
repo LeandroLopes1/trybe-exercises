@@ -13,7 +13,6 @@
   .header-container {
     background-color: #5C687C;
     display: flex;
-   
   
   }
   
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: center;
     flex-basis: 286px;
+  
   }
   
   
@@ -30,11 +30,12 @@
     flex-grow: 1;
     order: 1;
   }
-  
+
   .menu-container ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    
   }
   
   .menu-container li {
