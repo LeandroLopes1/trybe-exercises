@@ -71,11 +71,13 @@ const lesson1 = {
 
   const verifyPair = (obj,key,value) => {
     const arr = Object.entries(obj);
-    let isEqual = false;
+   
     for (let index in arr) {
-      if (arr[index][0] === key && arr[index][1] === value) isEqual = true;
+      if (arr[index][0] === key && arr[index][1] === value){
+        return 'true' 
     }
-    return isEqual
+  }
+    return 'false'
   }
   console.log(verifyPair(lesson3, 'turno', 'noite'));
   console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
