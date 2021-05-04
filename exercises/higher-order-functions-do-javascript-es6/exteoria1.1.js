@@ -9,6 +9,6 @@ const dormir = () => console.log('Partiu dormir');
 
 const doingThings = (coisas) => coisas();
 
-doingThings(amanhecer)
+doingThings(dormir)
 
 
