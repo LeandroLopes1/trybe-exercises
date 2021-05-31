@@ -47,7 +47,7 @@ class Pokedex extends React.Component {
       <div className="pokedex">
         <Pokemon pokemon={ pokemon } />
         <div className="pokedex-buttons-panel">
-          <Button
+        <Button
             onClick={() => this.filterPokemons('all')}
             className="filter-button"
           >
@@ -61,7 +61,7 @@ class Pokedex extends React.Component {
             >
               { type }
             </Button>
-          ))}
+          ))} 
         </div>
         <Button
           className="pokedex-button"
